@@ -13,7 +13,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full min-h-screen bg-zinc-900  text-white'>
+    <div className='min-w-[100vw] min-h-screen bg-zinc-900  text-white'>
       <Navbar/>
       <Work/>
       <Stripes/>
